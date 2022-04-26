@@ -59,7 +59,9 @@ const SignIn = () => {
 
         <Button
           onClick={() =>
-            signIn("github", { callbackUrl: "http://localhost:3000" })
+            signIn("github", {
+              callbackUrl: "https://meetups-next-js-six.vercel.app",
+            })
           }
           sx={{
             position: "realative",
