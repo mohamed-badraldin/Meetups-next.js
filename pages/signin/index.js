@@ -38,7 +38,10 @@ const SignIn = () => {
 
         <Button
           onClick={() =>
-            signIn("facebook", { callbackUrl: "http://localhost:3000" })
+            signIn("facebook", {
+              callbackUrl:
+                "https://meetups-next-js-mohamed-badraldin.vercel.app/",
+            })
           }
           sx={{
             position: "realative",
