@@ -17,7 +17,9 @@ const SignIn = () => {
       <Stack direction="column" spacing={3} width={"50%"} margin={"auto"}>
         <Button
           onClick={() =>
-            signIn("google", { callbackUrl: "http://localhost:3000" })
+            signIn("google", {
+              callbackUrl: "https://meetups-next-js-six.vercel.app/",
+            })
           }
           sx={{
             position: "realative",
@@ -39,8 +41,7 @@ const SignIn = () => {
         <Button
           onClick={() =>
             signIn("facebook", {
-              callbackUrl:
-                "https://meetups-next-js-mohamed-badraldin.vercel.app/",
+              callbackUrl: "https://meetups-next-js-six.vercel.app/",
             })
           }
           sx={{
